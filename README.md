@@ -83,3 +83,11 @@ The full MiniLM training example downloads publicly available encoder weights. L
 - The job processing demonstration uses at-least-once semantics; exactly-once execution and benchmarked scaling are not claimed.
 - Cloud archival has offline/mocked tests and an opt-in live path. The examples do not establish that a current cloud production environment is running.
 - The case studies explain implementation boundaries, trade-offs and tests. CI should be evaluated from actual runs in **this** repository, not inferred from the presence of workflows.
+
+## Copyright and permitted use
+
+Copyright © 2026 Nils Langlois-Cannon. **All rights reserved.**
+
+This repository is made available for technical review and demonstration. **No open-source or other software licence is granted.** Except as permitted by applicable law or GitHub's Terms of Service, no permission is given to copy, modify, redistribute or commercially use the original code without the copyright holder's prior authorisation.
+
+Third-party software and dependencies remain subject to their respective licences. For permission requests, contact the repository owner through GitHub.
