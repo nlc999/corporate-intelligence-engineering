@@ -1,0 +1,22 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.db
+.DS_Store
+coverage.xml
+.coverage
+
+# Local, potentially large or unsafe-to-share ML artifacts
+artifacts/
+*.pkl
+*.joblib
+
+# Standalone workforce chart demo
+frontend/node_modules/
+frontend/dist/

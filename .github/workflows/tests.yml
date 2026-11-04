@@ -1,0 +1,70 @@
+name: OSINT engineering tests
+on:
+  push:
+  pull_request:
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -e '.[dev]'
+      - run: bash -n infrastructure/bootstrap.sh infrastructure/verify.sh
+      - run: python -m pytest -q
+  integration-tests:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres" --health-interval 5s
+          --health-timeout 5s --health-retries 10
+      redis:
+        image: redis:7-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping" --health-interval 5s
+          --health-timeout 5s --health-retries 10
+    env:
+      OSINT_TEST_PG_DSN: postgresql://postgres:postgres@127.0.0.1:5432/postgres
+      OSINT_TEST_REDIS_URL: redis://127.0.0.1:6379/0
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -e '.[dev,services]'
+      - name: Install disposable jobs schema
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          import psycopg
+          with psycopg.connect(os.environ["OSINT_TEST_PG_DSN"]) as conn:
+              with conn.cursor() as cur:
+                  for statement in Path("sql/background_jobs.sql").read_text().split(";"):
+                      if statement.strip():
+                          cur.execute(statement)
+          PY
+      - name: Redis and PostgreSQL job integration tests
+        run: python -m pytest -q tests/platform_engineering/test_services_integration.py
+      - name: PostgreSQL search candidate and historical-name regressions
+        run: python -m pytest -q tests/test_postgres_candidate_limit.py
+
+  docker-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate Compose override
+        run: docker compose -f docker-compose.yml -f infrastructure/compose.tools.yml config -q
+      - name: Build standalone tools image
+        run: docker build -f infrastructure/Dockerfile -t osint-research-tools:ci .

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osint-research"
+version = "0.1.0"
+description = "Curated company-discovery and corporate intelligence engineering samples"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2,<3"]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.1,<4"]
+dev = ["pytest>=8,<10"]
+ml = ["numpy>=1.26,<3", "scikit-learn>=1.4,<2", "sentence-transformers>=3,<6"]
+gemini = ["google-genai>=1,<2"]
+aws = ["boto3>=1.35,<2"]
+services = ["redis>=5,<7", "psycopg[binary]>=3.1,<4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

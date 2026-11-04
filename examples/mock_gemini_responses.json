@@ -1,0 +1,8 @@
+{
+  "notice": "Invented deterministic mock responses; no real Gemini inference occurs.",
+  "responses": {
+    "article-b": {"metric_type":"cost_cutting","geo_scope":"GB","is_false_positive":false,"reasoning":"Mock classification only"},
+    "article-h": {"metric_type":"other","geo_scope":"unknown","is_false_positive":true,"reasoning":"Subject company did not perform this event"}
+  },
+  "failures": {"article-f":"quota","article-g":"malformed"}
+}

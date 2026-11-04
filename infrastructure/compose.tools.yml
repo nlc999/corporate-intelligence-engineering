@@ -1,0 +1,16 @@
+# Extends the existing database service; does not duplicate it.
+services:
+  tools:
+    build:
+      context: .
+      dockerfile: infrastructure/Dockerfile
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/postgres
+    entrypoint: ["python", "scripts/search_demo.py"]
+    command: ["search", "GREENLEAF ENGINEERING LIMITED"]
+    read_only: true
+    security_opt:
+      - no-new-privileges:true

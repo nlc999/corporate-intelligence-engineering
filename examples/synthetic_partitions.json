@@ -1,0 +1,20 @@
+{
+  "notice": "All partition and database records in this fixture are invented. These are not proof of a deployed archive.",
+  "partitions": [
+    {
+      "schema": "ingest",
+      "parent": "fact_event",
+      "partition": "fact_event_2022_01"
+    },
+    {
+      "schema": "ingest",
+      "parent": "fact_event",
+      "partition": "fact_event_2023_06"
+    },
+    {
+      "schema": "ingest",
+      "parent": "fact_event",
+      "partition": "fact_event_2026_09"
+    }
+  ]
+}

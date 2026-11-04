@@ -1,0 +1,72 @@
+{"sentence": "Alder Coast Research agreed to acquire a specialist robotics supplier.", "event_type": "acquisition", "label_source": "synthetic_demo", "source_id": "synthetic-acquisition-0"}
+{"sentence": "Copper Vale Materials purchased a controlling stake in a sensor manufacturer.", "event_type": "acquisition", "label_source": "synthetic_demo", "source_id": "synthetic-acquisition-1"}
+{"sentence": "Ternbridge Systems completed the takeover of a distribution business.", "event_type": "acquisition", "label_source": "synthetic_demo", "source_id": "synthetic-acquisition-2"}
+{"sentence": "North Willow Manufacturing acquired a software engineering company in a share deal.", "event_type": "acquisition", "label_source": "synthetic_demo", "source_id": "synthetic-acquisition-3"}
+{"sentence": "Mallow Peak Holdings announced plans to buy a majority interest in a logistics group.", "event_type": "acquisition", "label_source": "synthetic_demo", "source_id": "synthetic-acquisition-4"}
+{"sentence": "Stonefern Analytics signed an agreement to purchase a smaller competitor.", "event_type": "acquisition", "label_source": "synthetic_demo", "source_id": "synthetic-acquisition-5"}
+{"sentence": "Silver Moth Industries bought the remaining shares of an automation venture.", "event_type": "acquisition", "label_source": "synthetic_demo", "source_id": "synthetic-acquisition-6"}
+{"sentence": "Birchfield Instruments acquired a privately held battery engineering company.", "event_type": "acquisition", "label_source": "synthetic_demo", "source_id": "synthetic-acquisition-7"}
+{"sentence": "Alder Coast Research cancelled construction of a planned glass factory.", "event_type": "capex_cancellation", "label_source": "synthetic_demo", "source_id": "synthetic-capex_cancellation-0"}
+{"sentence": "Copper Vale Materials abandoned its previously announced warehouse investment.", "event_type": "capex_cancellation", "label_source": "synthetic_demo", "source_id": "synthetic-capex_cancellation-1"}
+{"sentence": "Ternbridge Systems suspended the capital expenditure programme for new machinery.", "event_type": "capex_cancellation", "label_source": "synthetic_demo", "source_id": "synthetic-capex_cancellation-2"}
+{"sentence": "North Willow Manufacturing scrapped plans to build a second production facility.", "event_type": "capex_cancellation", "label_source": "synthetic_demo", "source_id": "synthetic-capex_cancellation-3"}
+{"sentence": "Mallow Peak Holdings halted construction of its proposed wind turbine plant.", "event_type": "capex_cancellation", "label_source": "synthetic_demo", "source_id": "synthetic-capex_cancellation-4"}
+{"sentence": "Stonefern Analytics withdrew approval for its factory modernisation project.", "event_type": "capex_cancellation", "label_source": "synthetic_demo", "source_id": "synthetic-capex_cancellation-5"}
+{"sentence": "Silver Moth Industries postponed the equipment installation project indefinitely.", "event_type": "capex_cancellation", "label_source": "synthetic_demo", "source_id": "synthetic-capex_cancellation-6"}
+{"sentence": "Birchfield Instruments terminated a planned multimillion-pound manufacturing expansion.", "event_type": "capex_cancellation", "label_source": "synthetic_demo", "source_id": "synthetic-capex_cancellation-7"}
+{"sentence": "Alder Coast Research will invest in a new battery manufacturing facility.", "event_type": "capex_investment", "label_source": "synthetic_demo", "source_id": "synthetic-capex_investment-0"}
+{"sentence": "Copper Vale Materials approved capital expenditure for a machinery upgrade.", "event_type": "capex_investment", "label_source": "synthetic_demo", "source_id": "synthetic-capex_investment-1"}
+{"sentence": "Ternbridge Systems began construction of an advanced component factory.", "event_type": "capex_investment", "label_source": "synthetic_demo", "source_id": "synthetic-capex_investment-2"}
+{"sentence": "North Willow Manufacturing announced a major investment in production equipment.", "event_type": "capex_investment", "label_source": "synthetic_demo", "source_id": "synthetic-capex_investment-3"}
+{"sentence": "Mallow Peak Holdings committed funding to expand its manufacturing plant.", "event_type": "capex_investment", "label_source": "synthetic_demo", "source_id": "synthetic-capex_investment-4"}
+{"sentence": "Stonefern Analytics commissioned a new automated packaging line.", "event_type": "capex_investment", "label_source": "synthetic_demo", "source_id": "synthetic-capex_investment-5"}
+{"sentence": "Silver Moth Industries allocated additional capital to a planned logistics centre.", "event_type": "capex_investment", "label_source": "synthetic_demo", "source_id": "synthetic-capex_investment-6"}
+{"sentence": "Birchfield Instruments will build a new industrial processing facility next year.", "event_type": "capex_investment", "label_source": "synthetic_demo", "source_id": "synthetic-capex_investment-7"}
+{"sentence": "Alder Coast Research announced a plan to reduce operating expenses.", "event_type": "cost_cutting", "label_source": "synthetic_demo", "source_id": "synthetic-cost_cutting-0"}
+{"sentence": "Copper Vale Materials will eliminate redundant management roles to save costs.", "event_type": "cost_cutting", "label_source": "synthetic_demo", "source_id": "synthetic-cost_cutting-1"}
+{"sentence": "Ternbridge Systems began a restructuring programme aimed at overhead reduction.", "event_type": "cost_cutting", "label_source": "synthetic_demo", "source_id": "synthetic-cost_cutting-2"}
+{"sentence": "North Willow Manufacturing expects savings from consolidating regional offices.", "event_type": "cost_cutting", "label_source": "synthetic_demo", "source_id": "synthetic-cost_cutting-3"}
+{"sentence": "Mallow Peak Holdings will cut administrative costs under a new efficiency drive.", "event_type": "cost_cutting", "label_source": "synthetic_demo", "source_id": "synthetic-cost_cutting-4"}
+{"sentence": "Stonefern Analytics reduced spending on nonessential contractor services.", "event_type": "cost_cutting", "label_source": "synthetic_demo", "source_id": "synthetic-cost_cutting-5"}
+{"sentence": "Silver Moth Industries launched an initiative to lower fixed operating costs.", "event_type": "cost_cutting", "label_source": "synthetic_demo", "source_id": "synthetic-cost_cutting-6"}
+{"sentence": "Birchfield Instruments will streamline staffing to improve operating efficiency.", "event_type": "cost_cutting", "label_source": "synthetic_demo", "source_id": "synthetic-cost_cutting-7"}
+{"sentence": "Alder Coast Research sold its chemicals division to an independent buyer.", "event_type": "divestment", "label_source": "synthetic_demo", "source_id": "synthetic-divestment-0"}
+{"sentence": "Copper Vale Materials disposed of a minority interest in a logistics venture.", "event_type": "divestment", "label_source": "synthetic_demo", "source_id": "synthetic-divestment-1"}
+{"sentence": "Ternbridge Systems agreed to divest its regional packaging operations.", "event_type": "divestment", "label_source": "synthetic_demo", "source_id": "synthetic-divestment-2"}
+{"sentence": "North Willow Manufacturing completed the sale of a warehouse property portfolio.", "event_type": "divestment", "label_source": "synthetic_demo", "source_id": "synthetic-divestment-3"}
+{"sentence": "Mallow Peak Holdings exited the consumer electronics business through a disposal.", "event_type": "divestment", "label_source": "synthetic_demo", "source_id": "synthetic-divestment-4"}
+{"sentence": "Stonefern Analytics sold its remaining stake in an offshore energy project.", "event_type": "divestment", "label_source": "synthetic_demo", "source_id": "synthetic-divestment-5"}
+{"sentence": "Silver Moth Industries announced the divestiture of a noncore manufacturing unit.", "event_type": "divestment", "label_source": "synthetic_demo", "source_id": "synthetic-divestment-6"}
+{"sentence": "Birchfield Instruments signed an agreement to sell a retail subsidiary.", "event_type": "divestment", "label_source": "synthetic_demo", "source_id": "synthetic-divestment-7"}
+{"sentence": "Alder Coast Research approved a new chief executive bonus plan.", "event_type": "executive_compensation", "label_source": "synthetic_demo", "source_id": "synthetic-executive_compensation-0"}
+{"sentence": "Copper Vale Materials disclosed the annual salary of its finance director.", "event_type": "executive_compensation", "label_source": "synthetic_demo", "source_id": "synthetic-executive_compensation-1"}
+{"sentence": "Ternbridge Systems awarded restricted share units to senior managers.", "event_type": "executive_compensation", "label_source": "synthetic_demo", "source_id": "synthetic-executive_compensation-2"}
+{"sentence": "North Willow Manufacturing increased performance-related executive remuneration.", "event_type": "executive_compensation", "label_source": "synthetic_demo", "source_id": "synthetic-executive_compensation-3"}
+{"sentence": "Mallow Peak Holdings published compensation arrangements for its board.", "event_type": "executive_compensation", "label_source": "synthetic_demo", "source_id": "synthetic-executive_compensation-4"}
+{"sentence": "Stonefern Analytics granted long-term incentive awards to its leadership team.", "event_type": "executive_compensation", "label_source": "synthetic_demo", "source_id": "synthetic-executive_compensation-5"}
+{"sentence": "Silver Moth Industries revised the cash bonuses payable to its directors.", "event_type": "executive_compensation", "label_source": "synthetic_demo", "source_id": "synthetic-executive_compensation-6"}
+{"sentence": "Birchfield Instruments announced an executive share-option compensation scheme.", "event_type": "executive_compensation", "label_source": "synthetic_demo", "source_id": "synthetic-executive_compensation-7"}
+{"sentence": "Alder Coast Research sponsored a local science education exhibition.", "event_type": "not_financial_event", "label_source": "synthetic_demo", "source_id": "synthetic-not_financial_event-0"}
+{"sentence": "Copper Vale Materials hosted a conference about industrial design.", "event_type": "not_financial_event", "label_source": "synthetic_demo", "source_id": "synthetic-not_financial_event-1"}
+{"sentence": "Ternbridge Systems published a guide to workplace sustainability.", "event_type": "not_financial_event", "label_source": "synthetic_demo", "source_id": "synthetic-not_financial_event-2"}
+{"sentence": "North Willow Manufacturing unveiled its updated corporate identity and logo.", "event_type": "not_financial_event", "label_source": "synthetic_demo", "source_id": "synthetic-not_financial_event-3"}
+{"sentence": "Mallow Peak Holdings announced a lecture series for graduate engineers.", "event_type": "not_financial_event", "label_source": "synthetic_demo", "source_id": "synthetic-not_financial_event-4"}
+{"sentence": "Stonefern Analytics celebrated the anniversary of its founding.", "event_type": "not_financial_event", "label_source": "synthetic_demo", "source_id": "synthetic-not_financial_event-5"}
+{"sentence": "Silver Moth Industries released a report on employee volunteering.", "event_type": "not_financial_event", "label_source": "synthetic_demo", "source_id": "synthetic-not_financial_event-6"}
+{"sentence": "Birchfield Instruments opened a community outreach information website.", "event_type": "not_financial_event", "label_source": "synthetic_demo", "source_id": "synthetic-not_financial_event-7"}
+{"sentence": "Alder Coast Research reported higher operating profit for the year.", "event_type": "profit", "label_source": "synthetic_demo", "source_id": "synthetic-profit-0"}
+{"sentence": "Copper Vale Materials said net earnings increased despite a slow quarter.", "event_type": "profit", "label_source": "synthetic_demo", "source_id": "synthetic-profit-1"}
+{"sentence": "Ternbridge Systems disclosed a decline in pretax profit.", "event_type": "profit", "label_source": "synthetic_demo", "source_id": "synthetic-profit-2"}
+{"sentence": "North Willow Manufacturing announced record annual net income.", "event_type": "profit", "label_source": "synthetic_demo", "source_id": "synthetic-profit-3"}
+{"sentence": "Mallow Peak Holdings posted stronger gross profit than a year earlier.", "event_type": "profit", "label_source": "synthetic_demo", "source_id": "synthetic-profit-4"}
+{"sentence": "Stonefern Analytics reported a fall in quarterly earnings.", "event_type": "profit", "label_source": "synthetic_demo", "source_id": "synthetic-profit-5"}
+{"sentence": "Silver Moth Industries published its first-half operating income results.", "event_type": "profit", "label_source": "synthetic_demo", "source_id": "synthetic-profit-6"}
+{"sentence": "Birchfield Instruments said annual profitability improved on stronger margins.", "event_type": "profit", "label_source": "synthetic_demo", "source_id": "synthetic-profit-7"}
+{"sentence": "Alder Coast Research announced an ordinary-share repurchase programme.", "event_type": "share_buyback", "label_source": "synthetic_demo", "source_id": "synthetic-share_buyback-0"}
+{"sentence": "Copper Vale Materials bought back shares through an open-market transaction.", "event_type": "share_buyback", "label_source": "synthetic_demo", "source_id": "synthetic-share_buyback-1"}
+{"sentence": "Ternbridge Systems authorised the repurchase of its own common stock.", "event_type": "share_buyback", "label_source": "synthetic_demo", "source_id": "synthetic-share_buyback-2"}
+{"sentence": "North Willow Manufacturing extended its existing share buyback mandate.", "event_type": "share_buyback", "label_source": "synthetic_demo", "source_id": "synthetic-share_buyback-3"}
+{"sentence": "Mallow Peak Holdings purchased treasury shares under an approved buyback.", "event_type": "share_buyback", "label_source": "synthetic_demo", "source_id": "synthetic-share_buyback-4"}
+{"sentence": "Stonefern Analytics began a programme to repurchase outstanding equity.", "event_type": "share_buyback", "label_source": "synthetic_demo", "source_id": "synthetic-share_buyback-5"}
+{"sentence": "Silver Moth Industries completed a buyback of ordinary shares.", "event_type": "share_buyback", "label_source": "synthetic_demo", "source_id": "synthetic-share_buyback-6"}
+{"sentence": "Birchfield Instruments disclosed share repurchases executed during the quarter.", "event_type": "share_buyback", "label_source": "synthetic_demo", "source_id": "synthetic-share_buyback-7"}

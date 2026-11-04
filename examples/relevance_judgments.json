@@ -1,0 +1,10 @@
+{
+  "notice": "Synthetic graded relevance judgments; these are invented companies and are not real-world accuracy or performance claims.",
+  "cases": [
+    {"id": "current_exact", "query": "GREENLEAF ENGINEERING LIMITED", "relevance": {"00000006": 3, "00000002": 1}},
+    {"id": "previous_exact", "query": "GREENLEAF ENGINEERING LTD", "relevance": {"00000001": 3, "00000006": 2}},
+    {"id": "prefix", "query": "MERIDIAN", "relevance": {"00000003": 3}},
+    {"id": "number", "query": "00000003", "relevance": {"00000003": 3}},
+    {"id": "dissolved_exclusion", "query": "NORTH SHORE ENERGY", "relevance": {}}
+  ]
+}

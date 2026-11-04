@@ -1,0 +1,49 @@
+{
+  "notice": "All company names, numbers and identifiers in this fixture are invented and not registry facts.",
+  "snapshot_date": "2026-09-30",
+  "companies": [
+    {
+      "company_number": "00000001",
+      "company_name": "ALDER RENEWABLES LIMITED",
+      "company_status": "active",
+      "locality": "Leeds",
+      "previous_names": ["GREENLEAF ENGINEERING LIMITED", "GREENLEAF-ENGINEERING LTD", "ALDER RENEWABLES LIMITED"]
+    },
+    {
+      "company_number": "00000002",
+      "company_name": "GREENLEAF ENGINEERING SERVICES LIMITED",
+      "company_status": "active",
+      "locality": "London",
+      "previous_names": []
+    },
+    {
+      "company_number": "00000003",
+      "company_name": "MERIDIAN PRECISION COMPONENTS LIMITED",
+      "company_status": "active",
+      "locality": "Bristol",
+      "previous_names": ["MERIDIAN INDUSTRIES LIMITED"]
+    },
+    {
+      "company_number": "00000004",
+      "company_name": "ALDER RENEWABLES SYSTEMS LIMITED",
+      "company_status": "active",
+      "locality": "Leeds",
+      "previous_names": []
+    },
+    {
+      "company_number": "00000005",
+      "company_name": "NORTH SHORE ENERGY LIMITED",
+      "company_status": "dissolved",
+      "locality": "Newcastle",
+      "previous_names": ["NORTHSHORE POWER LIMITED"]
+    },
+    {
+      "company_number": "00000006",
+      "company_name": "GREENLEAF ENGINEERING LIMITED",
+      "company_status": "active",
+      "locality": "Cardiff",
+      "previous_names": []
+    }
+  ],
+  "ingested_company_numbers": ["00000001", "00000003"]
+}

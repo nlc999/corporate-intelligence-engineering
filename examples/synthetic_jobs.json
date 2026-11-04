@@ -1,0 +1,16 @@
+{
+  "notice": "All company identifiers and job payloads are invented; no actual registry ingestion is performed.",
+  "jobs": [
+    {
+      "job_id": "sample-financials-01",
+      "kind": "financial_summary",
+      "payload": {"company_number": "00000001", "reporting_year": 2025}
+    },
+    {
+      "job_id": "sample-financials-02",
+      "kind": "financial_summary",
+      "payload": {"company_number": "00000002", "reporting_year": 2025}
+    }
+  ],
+  "stages": ["fetch", "normalise", "validate"]
+}

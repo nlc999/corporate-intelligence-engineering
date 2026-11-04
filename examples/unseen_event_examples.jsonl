@@ -1,0 +1,18 @@
+{"sentence": "North Willow Manufacturing entered a binding deal to buy a niche software vendor.", "event_type": "acquisition", "label_source": "synthetic_demo", "source_id": "external-acquisition-0"}
+{"sentence": "Mallow Peak Holdings completed an acquisition of a manufacturing competitor.", "event_type": "acquisition", "label_source": "synthetic_demo", "source_id": "external-acquisition-1"}
+{"sentence": "North Willow Manufacturing cancelled a previously funded expansion of its testing facility.", "event_type": "capex_cancellation", "label_source": "synthetic_demo", "source_id": "external-capex_cancellation-0"}
+{"sentence": "Mallow Peak Holdings abandoned plans for additional capital investment in production lines.", "event_type": "capex_cancellation", "label_source": "synthetic_demo", "source_id": "external-capex_cancellation-1"}
+{"sentence": "North Willow Manufacturing broke ground on a new advanced materials plant.", "event_type": "capex_investment", "label_source": "synthetic_demo", "source_id": "external-capex_investment-0"}
+{"sentence": "Mallow Peak Holdings invested in additional CNC manufacturing equipment.", "event_type": "capex_investment", "label_source": "synthetic_demo", "source_id": "external-capex_investment-1"}
+{"sentence": "North Willow Manufacturing introduced an efficiency programme to lower payroll expenses.", "event_type": "cost_cutting", "label_source": "synthetic_demo", "source_id": "external-cost_cutting-0"}
+{"sentence": "Mallow Peak Holdings consolidated back-office functions to achieve cost savings.", "event_type": "cost_cutting", "label_source": "synthetic_demo", "source_id": "external-cost_cutting-1"}
+{"sentence": "North Willow Manufacturing divested its precision motors business.", "event_type": "divestment", "label_source": "synthetic_demo", "source_id": "external-divestment-0"}
+{"sentence": "Mallow Peak Holdings completed a disposal of three industrial sites.", "event_type": "divestment", "label_source": "synthetic_demo", "source_id": "external-divestment-1"}
+{"sentence": "North Willow Manufacturing disclosed annual incentive pay for its managing director.", "event_type": "executive_compensation", "label_source": "synthetic_demo", "source_id": "external-executive_compensation-0"}
+{"sentence": "Mallow Peak Holdings revised the equity compensation of its executives.", "event_type": "executive_compensation", "label_source": "synthetic_demo", "source_id": "external-executive_compensation-1"}
+{"sentence": "North Willow Manufacturing organised a community engineering workshop.", "event_type": "not_financial_event", "label_source": "synthetic_demo", "source_id": "external-not_financial_event-0"}
+{"sentence": "Mallow Peak Holdings launched a new corporate design handbook.", "event_type": "not_financial_event", "label_source": "synthetic_demo", "source_id": "external-not_financial_event-1"}
+{"sentence": "North Willow Manufacturing posted a 12 percent increase in earnings.", "event_type": "profit", "label_source": "synthetic_demo", "source_id": "external-profit-0"}
+{"sentence": "Mallow Peak Holdings announced lower income before tax for the quarter.", "event_type": "profit", "label_source": "synthetic_demo", "source_id": "external-profit-1"}
+{"sentence": "North Willow Manufacturing repurchased ordinary shares under its buyback authority.", "event_type": "share_buyback", "label_source": "synthetic_demo", "source_id": "external-share_buyback-0"}
+{"sentence": "Mallow Peak Holdings extended a programme to buy back outstanding stock.", "event_type": "share_buyback", "label_source": "synthetic_demo", "source_id": "external-share_buyback-1"}
