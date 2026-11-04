@@ -221,7 +221,7 @@ def verify_s3(client: Any, *, bucket: str, key: str, size: int, checksum: str) -
     finally:
         body.close()
     if total != size or digest.hexdigest() != checksum:
-        raise RuntimeError("S3 downloaded content failed SHA-256 verification")
+        raise RuntimeError("S3 integrity verification failed: downloaded content SHA-256 mismatch")
 
 
 def archive_partition(
